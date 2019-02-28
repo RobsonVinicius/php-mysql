@@ -34,14 +34,49 @@
     }
   ?>
 
+  
   <!-- Repetições -->
+
+  <!-- Repetições com for -->
   <?php
     for ($i=0; $i < 5; $i++) {
       echo "Laço de número: " . $i;      
     }
   ?>
 
+  <!-- Repetições com while -->
+  <?php 
+    $condicao = 5;
+    $i = 0;
+    while ($i < $condicao) {
+      echo "Laço de número: " . $i;
+      $i++;
+    }
+  ?>
+
+
+  <!-- Array -->
+
+  <?php 
+    $numeros = array(1, 3, 9, 4, 5, 8, 2, 6, 7, 0);
+  ?>
+
+  <!-- Exemplo de Aplicação de Array -->
+  <?php 
+    $numeros = array(1, 3, 9, 4, 5, 8, 2, 6, 7, 0);
+    for ($i=0; $i < 10; $i++) {
+      echo "Chave: " . $i . "Valor: " . $numeros[$i];
+    }
+  ?>
+
   
+  
+
+
+
+
+
+
 
   
 </body>
