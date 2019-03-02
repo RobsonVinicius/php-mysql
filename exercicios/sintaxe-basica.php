@@ -69,15 +69,14 @@
     }
   ?>
 
-  
-  
+  <!-- O código acima irá verificar cada posição do array de 0 a 9, e irá imprimir a mensagem dizendo qual chave/valor estamos no array.
+
+  Lembra que nós não dizemos qual tipo a variável será? Isso significa também que nosso array não tem tipo, e por isso podemos colocar quaisquer valores dentro do array, inclusive misturando-os: -->
+
+  <?php 
+    $arrayMisturado = array (0, 1, "carro", "casa", 4, 5, "Curso do php", 7, 8, 9);
+  ?>
 
 
-
-
-
-
-
-  
 </body>
 </html>
